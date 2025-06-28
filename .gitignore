@@ -1,0 +1,30 @@
+# Ignorar la carpeta de configuración local de Visual Studio
+.vs/
+
+# Archivos de usuario que no deben compartirse
+*.user
+*.suo
+
+# Archivos de caché y logs
+*.cache
+*.log
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Archivos ejecutables y librerías
+*.exe
+*.dll
+
+# Archivos temporales de Visual Studio
+*.tmp
+*.tmp_proj
+
+# Archivos de paquetes NuGet descargados
+*.nupkg
+packages/
+
+# Archivos de configuración local
+*.VC.db
+*.VC.opendb
